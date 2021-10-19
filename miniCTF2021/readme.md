@@ -50,9 +50,9 @@ def encode(plain):
     x = left(x,d)
     return x
 ```
-Để decode thì bây giờ chúng ta chỉ cần code những hàm chức năng ngược lại với các hàm up, right, down, left và sắp xếp theo chiều ngược lại.
+Để decode thì bây giờ chúng ta chỉ cần code những hàm chức năng ngược lại với các hàm up, right, down, left và sắp xếp theo chiều ngược lại vói hàm encode.
 
-#Code Solve 
+# Code Solve 
 ```
 def up(x):
     x = [f"{ord(x[i]) << 1:08b}" for i in range(len(x))]
