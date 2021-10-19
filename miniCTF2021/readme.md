@@ -1,4 +1,5 @@
 Bài này ta chỉ cần hiểu các hàm làm gì và decode các hàm đó để ra flag.
+
 Hàm main:
 ```
 def main():
